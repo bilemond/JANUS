@@ -7,25 +7,15 @@
 <p align="center"><b>Forecast future outcomes. Reflect on past experience. Co-evolve research capabilities.</b></p>
 
 <p align="center">
-  <a href="assets/JANUS.pdf">
-    <img src="https://img.shields.io/badge/Paper-PDF-b31b1b.svg" alt="Paper">
-  </a>
+  <a href="assets/JANUS.pdf"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b.svg" alt="Paper"></a>
   &nbsp;
-  <a href="https://github.com/bilemond/JANUS">
-    <img src="https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg" alt="arXiv">
-  </a>
+  <a href="https://github.com/bilemond/JANUS"><img src="https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg" alt="arXiv"></a>
   &nbsp;
-  <a href="https://github.com/bilemond/JANUS">
-    <img src="https://img.shields.io/badge/Website-JANUS.com-1a73e8.svg" alt="Website">
-  </a>
+  <a href="https://github.com/bilemond/JANUS"><img src="https://img.shields.io/badge/Website-JANUS.com-1a73e8.svg" alt="Website"></a>
   &nbsp;
-  <a href="#results">
-    <img src="https://img.shields.io/badge/MLS--Bench--Lite-30%20tasks%20%7C%2012%20domains-4169e1.svg" alt="Benchmark">
-  </a>
+  <a href="#results"><img src="https://img.shields.io/badge/MLS--Bench--Lite-30%20tasks%20%7C%2012%20domains-4169e1.svg" alt="Benchmark"></a>
   &nbsp;
-  <a href="#real-world-tasks">
-    <img src="https://img.shields.io/badge/Real--World-3%20tasks-2ea44f.svg" alt="Three real-world tasks">
-  </a>
+  <a href="#real-world-tasks"><img src="https://img.shields.io/badge/Real--World-3%20tasks-2ea44f.svg" alt="Three real-world tasks"></a>
 </p>
 
 Mengdi Liu<sup>1,2</sup>, Chenghao Jia<sup>1,2</sup>, Hong Chang<sup>1,2</sup>, Mingjie He<sup>1,2</sup>, Shiguang Shan<sup>1,2</sup>, Xilin Chen<sup>1,2</sup>
