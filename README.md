@@ -1,27 +1,40 @@
 <p align="center">
-  <img src="assets/janus.png" width="150" alt="JANUS: looking toward the future and the past">
+  <img src="assets/janus.png" width="100" alt="JANUS: looking toward the future and the past">
 </p>
 
 # JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models
 
 <p align="center"><b>Forecast future outcomes. Reflect on past experience. Co-evolve research capabilities.</b></p>
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](papers/JANUS.pdf)
-[![Code](https://img.shields.io/badge/Code-not%20yet%20released-orange.svg)](#release-status)
-[![Benchmark](https://img.shields.io/badge/MLS--Bench--Lite-30%20tasks%20%7C%2012%20domains-4169e1.svg)](#results)
+<p align="center">
+  <a href="papers/JANUS.pdf">
+    <img src="https://img.shields.io/badge/Paper-PDF-b31b1b.svg" alt="Paper">
+  </a>
+  &nbsp;
+  <a href="https://github.com/bilemond/JANUS">
+    <img src="https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg" alt="arXiv">
+  </a>
+  &nbsp;
+  <a href="https://github.com/bilemond/JANUS">
+    <img src="https://img.shields.io/badge/Website-JANUS.com-1a73e8.svg" alt="Website">
+  </a>
+  &nbsp;
+  <a href="#results">
+    <img src="https://img.shields.io/badge/MLS--Bench--Lite-30%20tasks%20%7C%2012%20domains-4169e1.svg" alt="Benchmark">
+  </a>
+  &nbsp;
+  <a href="#real-world-tasks">
+    <img src="https://img.shields.io/badge/Real--World-3%20tasks-2ea44f.svg" alt="Three real-world tasks">
+  </a>
+</p>
 
-Mengdi Liu<sup>1,2,*</sup>, Chenghao Jia<sup>1,2,*</sup>, Hong Chang<sup>1,2,†</sup>, Mingjie He<sup>1,2</sup>, Shiguang Shan<sup>1,2</sup>, Xilin Chen<sup>1,2</sup>
+Mengdi Liu<sup>1,2</sup>, Chenghao Jia<sup>1,2</sup>, Hong Chang<sup>1,2</sup>, Mingjie He<sup>1,2</sup>, Shiguang Shan<sup>1,2</sup>, Xilin Chen<sup>1,2</sup>
 
 <sup>1</sup> State Key Laboratory of AI Safety, Institute of Computing Technology, CAS, China  
 <sup>2</sup> University of Chinese Academy of Sciences (CAS), China
 
-<sup>*</sup> Equal contribution. Mengdi Liu is the project leader.  
-<sup>†</sup> Corresponding author: Hong Chang.
-
 ---
 
-> [!NOTE]
-> This repository hosts the JANUS paper and figures. Source code and reproduction scripts are not yet included. See [Release status](#release-status).
 
 ## Overview
 
@@ -35,7 +48,7 @@ Mengdi Liu<sup>1,2,*</sup>, Chenghao Jia<sup>1,2,*</sup>, Hong Chang<sup>1,2,†
   <img src="assets/intro.png" width="100%" alt="JANUS contrasts reactive Generate–Execute–Feedback with Predict–Verify–Evolve, improving evolving efficiency and the attainable ceiling">
 </p>
 
-<p align="center"><a href="assets/Janus_Intro.pdf">View the overview figure as PDF</a></p>
+
 
 ## Highlights
 
@@ -50,7 +63,6 @@ Mengdi Liu<sup>1,2,*</sup>, Chenghao Jia<sup>1,2,*</sup>, Hong Chang<sup>1,2,†
   <img src="assets/method.png" width="100%" alt="JANUS framework: expansion, prediction, execution, and experience-driven co-evolution">
 </p>
 
-<p align="center"><a href="assets/method.pdf">View the method figure as PDF</a></p>
 
 1. **Expand.** The orchestrator modifies, extends, or combines existing research nodes to propose new candidates.
 2. **Predict.** The world model scores candidates, refines proposals through selective debate, and prioritizes experiments under the remaining budget.
@@ -77,22 +89,17 @@ The following results are reported in Table 1 of the [paper](papers/JANUS.pdf) o
 
 **Valid Sub.** measures valid submissions. **Beat Any / Median / All** measure the fraction of tasks outperforming at least one, the median-performing, or all provided human baselines. **Dev / Test Score** are mean normalized task scores. See the paper for full definitions, scaling analyses, ablations, and real-world research results.
 
-## Release Status
+## Release plan
 
 | Item | Status |
 |---|---|
-| [Paper (PDF)](papers/JANUS.pdf) | Available in this repository |
-| Overview and method figures | Available in PNG and PDF |
-| Source code | Not yet released |
-| Reproduction scripts and configurations | Not yet released |
+| [Paper (PDF)](papers/JANUS.pdf) | ✅ Available |
+| Project page & interactive demo | 🔜 In progress |
+| arXiv posting | 🔜 In progress |
+| Full codebase | ⏳ Being prepared |
+| Reproduction scripts | ⏳ Being prepared |
+
 
 ## Citation
 
-```bibtex
-@misc{liu2026janus,
-  title  = {{JANUS}: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models},
-  author = {Mengdi Liu and Chenghao Jia and Hong Chang and Mingjie He and Shiguang Shan and Xilin Chen},
-  year   = {2026},
-  url    = {https://github.com/bilemond/JANUS}
-}
-```
+coming soon!
