@@ -89,6 +89,14 @@ The following results are reported in Table 1 of the [paper](papers/JANUS.pdf) o
 
 **Valid Sub.** measures valid submissions. **Beat Any / Median / All** measure the fraction of tasks outperforming at least one, the median-performing, or all provided human baselines. **Dev / Test Score** are mean normalized task scores. See the paper for full definitions, scaling analyses, ablations, and real-world research results.
 
+### Real-World Tasks
+
+<p align="center">
+  <img src="assets/result2.png" width="100%" alt="Performance versus number of experiments on nanoGPT training optimization, MinGPT attention kernel optimization, and genotype-to-phenotype prediction">
+</p>
+
+**JANUS achieves the strongest final performance across three real-world research tasks among the compared methods.** As the number of experiments increases, it reaches lower validation bits per byte on nanoGPT training optimization, higher speedup on MinGPT attention kernel optimization, and higher macro-averaged Pearson correlation on genotype-to-phenotype prediction. These trajectories show how JANUS turns successive experiments into sustained improvements across model training, systems optimization, and scientific prediction. Lower is better for validation bits per byte; higher is better for speedup and Pearson correlation.
+
 ## Release plan
 
 | Item | Status |
