@@ -7,7 +7,7 @@
 <p align="center"><b>Forecast future outcomes. Reflect on past experience. Co-evolve research capabilities.</b></p>
 
 <p align="center">
-  <a href="papers/JANUS.pdf">
+  <a href="assets/JANUS.pdf">
     <img src="https://img.shields.io/badge/Paper-PDF-b31b1b.svg" alt="Paper">
   </a>
   &nbsp;
@@ -71,7 +71,7 @@ Mengdi Liu<sup>1,2</sup>, Chenghao Jia<sup>1,2</sup>, Hong Chang<sup>1,2</sup>, 
 
 ## Results
 
-The following results are reported in Table 1 of the [paper](papers/JANUS.pdf) on **MLS-Bench-Lite**. Each task uses a **5-hour wall-clock research budget and one NVIDIA A100 GPU**, under the evaluation protocol described in the paper. Higher is better for all metrics below.
+The following results are reported in Table 1 of the [paper](assets/JANUS.pdf) on **MLS-Bench-Lite**. Each task uses a **5-hour wall-clock research budget and one NVIDIA A100 GPU**, under the evaluation protocol described in the paper. Higher is better for all metrics below.
 
 | Method | Model | Valid Sub. | Beat Any | Beat Median | Beat All | Dev Score | Test Score |
 |---|---|---:|---:|---:|---:|---:|---:|
@@ -101,7 +101,7 @@ The following results are reported in Table 1 of the [paper](papers/JANUS.pdf) o
 
 | Item | Status |
 |---|---|
-| [Paper (PDF)](papers/JANUS.pdf) | ✅ Available |
+| [Paper (PDF)](assets/JANUS.pdf) | ✅ Available |
 | Project page & interactive demo | 🔜 In progress |
 | arXiv posting | 🔜 In progress |
 | Full codebase | ⏳ Being prepared |
