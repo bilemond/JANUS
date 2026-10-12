@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="assets/janus.png" width="100" alt="JANUS: looking toward the future and the past">
-</p>
+<h1 align="center"><img src="assets/janus.png" width="40" alt="Janus logo"> JANUS</h1>
 
-# JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models
+<h3 align="center">JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models</h3>
 
 <p align="center"><b>Forecast future outcomes. Reflect on past experience. Co-evolve research capabilities.</b></p>
 
