@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/hero.svg" alt="JANUS — Predict, Verify, and Evolve with co-evolving world models" width="100%">
+</p>
+
 <h1 align="center"><img src="assets/janus.png" width="40" alt="Janus logo"> JANUS</h1>
 
 <h3 align="center">JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models</h3>

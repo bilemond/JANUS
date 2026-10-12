@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" role="img" aria-labelledby="janus-title janus-desc">
+  <title id="janus-title">JANUS — Forecast future outcomes. Reflect on past experience.</title>
+  <desc id="janus-desc">JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models. Forecast future outcomes. Reflect on past experience. Predict, Verify, and Evolve are highlighted in sequence: forecast proposal value, verify outcomes through experiments, and co-evolve research skills and predictive judgment.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a28"/>
+      <stop offset="1" stop-color="#080f1c"/>
+    </linearGradient>
+    <radialGradient id="past-glow" cx="0" cy="0.5" r="0.65">
+      <stop offset="0" stop-color="#b8984d" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#b8984d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="future-glow" cx="1" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#37b9c3" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#37b9c3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wordmark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0d698"/>
+      <stop offset="0.46" stop-color="#e5ecdc"/>
+      <stop offset="1" stop-color="#84e0dd"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#c2d4e4" opacity="0.13"/>
+    </pattern>
+    <clipPath id="panel-clip"><rect x="2" y="2" width="956" height="516" rx="25"/></clipPath>
+    <clipPath id="name-clip">
+      <text x="480" y="230" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="136" font-weight="800" letter-spacing="3">JANUS</text>
+    </clipPath>
+    <clipPath id="caption-clip"><rect x="50" y="410" width="860" height="34"/></clipPath>
+    <style>
+      .sans { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      .stage { animation: stage 9s ease-in-out infinite; }
+      .verify { animation-delay: -6s; }
+      .evolve { animation-delay: -3s; }
+      @keyframes stage {
+        0%, 25% { opacity: 1; }
+        31%, 94% { opacity: 0.16; }
+        100% { opacity: 1; }
+      }
+      .sweep { animation: sweep 9s ease-in-out infinite; }
+      @keyframes sweep {
+        0%, 5% { transform: translateX(140px); }
+        24%, 100% { transform: translateX(760px); }
+      }
+      .caption { animation: captions 9s cubic-bezier(.65, 0, .35, 1) infinite; }
+      @keyframes captions {
+        0%, 26% { transform: translateY(0); }
+        33.333%, 59% { transform: translateY(-36px); }
+        66.667%, 92% { transform: translateY(-72px); }
+        100% { transform: translateY(-108px); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        .sweep { display: none; }
+        .stage { opacity: 0.6; }
+      }
+    </style>
+  </defs>
+
+  <!-- A self-contained vector asset: no scripts, foreignObject, images, or external resources. -->
+  <g clip-path="url(#panel-clip)">
+    <rect width="960" height="520" fill="url(#background)"/>
+    <rect width="960" height="520" fill="url(#past-glow)"/>
+    <rect width="960" height="520" fill="url(#future-glow)"/>
+    <rect width="960" height="520" fill="url(#dots)" opacity="0.6"/>
+    <path d="M0 108 Q480 22 960 108" fill="none" stroke="#29404e" stroke-opacity="0.5"/>
+  </g>
+  <rect x="2" y="2" width="956" height="516" rx="25" fill="none" stroke="#2d3b4b" stroke-width="1.4"/>
+
+  <text class="sans" x="480" y="51" text-anchor="middle" font-size="22" font-weight="500" letter-spacing="0.3" fill="#97aabd">
+    <tspan x="480">Enhancing Long-Horizon Autonomous Research</tspan>
+    <tspan x="480" dy="29">with Co-Evolving World Models</tspan>
+  </text>
+
+  <text class="sans" x="480" y="230" text-anchor="middle" font-size="136" font-weight="800" letter-spacing="3" fill="url(#wordmark)">JANUS</text>
+  <g clip-path="url(#name-clip)">
+    <rect class="sweep" x="0" y="112" width="108" height="140" fill="url(#sheen)"/>
+  </g>
+  <text class="sans" x="480" y="286" text-anchor="middle" font-size="28" font-weight="600" fill="#d3e0e7">Forecast future outcomes. Reflect on past experience.</text>
+
+  <!-- Three readable phases remain present even when motion is disabled. -->
+  <g class="sans" font-size="22" font-weight="600" text-anchor="middle" transform="translate(-352 -1) scale(1.3)">
+    <rect x="441" y="257" width="116" height="42" rx="21" fill="#152a33" stroke="#305862"/>
+    <rect class="stage" x="441" y="257" width="116" height="42" rx="21" fill="#1a3c43" stroke="#7fdbd4" stroke-width="1.3"/>
+    <text x="499" y="284" fill="#a4e6df">Predict</text>
+    <path d="M566 278 H578 m-5-4 5 4-5 4" fill="none" stroke="#627c91" stroke-width="1.2" stroke-linecap="round"/>
+    <rect x="584" y="257" width="112" height="42" rx="21" fill="#192b42" stroke="#38506d"/>
+    <rect class="stage verify" x="584" y="257" width="112" height="42" rx="21" fill="#203b5b" stroke="#97baff" stroke-width="1.3"/>
+    <text x="640" y="284" fill="#bad0ff">Verify</text>
+    <path d="M705 278 H717 m-5-4 5 4-5 4" fill="none" stroke="#627c91" stroke-width="1.2" stroke-linecap="round"/>
+    <rect x="723" y="257" width="116" height="42" rx="21" fill="#30283c" stroke="#584767"/>
+    <rect class="stage evolve" x="723" y="257" width="116" height="42" rx="21" fill="#44324f" stroke="#c2a9e9" stroke-width="1.3"/>
+    <text x="781" y="284" fill="#d8c2f5">Evolve</text>
+  </g>
+  <g clip-path="url(#caption-clip)">
+    <g class="caption sans" text-anchor="middle" font-size="22" fill="#9eb0c3">
+      <text x="480" y="434">Forecast value, information gain, and exploration utility.</text>
+      <text x="480" y="470">Ground predictions in real experimental evidence.</text>
+      <text x="480" y="506">Co-evolve research skills and predictive judgment.</text>
+      <text x="480" y="542">Forecast value, information gain, and exploration utility.</text>
+    </g>
+  </g>
+
+  <path d="M48 467 H912" stroke="#29384a" stroke-width="1"/>
+  <g>
+    <circle class="stage" cx="456" cy="494" r="3.5" fill="#80d8d2"/>
+    <circle class="stage verify" cx="480" cy="494" r="3.5" fill="#9abaff"/>
+    <circle class="stage evolve" cx="504" cy="494" r="3.5" fill="#c2a9e9"/>
+  </g>
+</svg>
