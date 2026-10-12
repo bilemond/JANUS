@@ -9,7 +9,7 @@
 <p align="center">
   <a href="assets/JANUS.pdf"><img src="https://img.shields.io/badge/Paper-PDF-b31b1b.svg" alt="Paper"></a>
   &nbsp;
-  <a href="https://arxiv.org/abs/2610.13194"><img src="https://img.shields.io/badge/arXiv-coming%20soon-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2610.13194"><img src="https://img.shields.io/badge/arXiv-2610.13194-b31b1b.svg" alt="arXiv"></a>
   &nbsp;
   <a href="https://github.com/bilemond/JANUS"><img src="https://img.shields.io/badge/Website-JANUS.com-1a73e8.svg" alt="Website"></a>
   &nbsp;
