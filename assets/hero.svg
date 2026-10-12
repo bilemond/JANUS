@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" role="img" aria-labelledby="janus-title janus-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="960" height="360" role="img" aria-labelledby="janus-title janus-desc">
   <title id="janus-title">JANUS — Forecast future outcomes. Reflect on past experience.</title>
   <desc id="janus-desc">JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models. Forecast future outcomes. Reflect on past experience. Predict, Verify, and Evolve are highlighted in sequence: forecast proposal value, verify outcomes through experiments, and co-evolve research skills and predictive judgment.</desc>
   <defs>
@@ -27,11 +27,11 @@
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="0.75" fill="#c2d4e4" opacity="0.13"/>
     </pattern>
-    <clipPath id="panel-clip"><rect x="2" y="2" width="956" height="516" rx="25"/></clipPath>
+    <clipPath id="panel-clip"><rect x="2" y="2" width="956" height="356" rx="25"/></clipPath>
     <clipPath id="name-clip">
-      <text x="480" y="230" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="136" font-weight="800" letter-spacing="3">JANUS</text>
+      <text x="480" y="141" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="100" font-weight="800" letter-spacing="3">JANUS</text>
     </clipPath>
-    <clipPath id="caption-clip"><rect x="50" y="410" width="860" height="34"/></clipPath>
+    <clipPath id="caption-clip"><rect x="50" y="274" width="860" height="34"/></clipPath>
     <style>
       .sans { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
       .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
@@ -45,8 +45,8 @@
       }
       .sweep { animation: sweep 9s ease-in-out infinite; }
       @keyframes sweep {
-        0%, 5% { transform: translateX(140px); }
-        24%, 100% { transform: translateX(760px); }
+        0%, 5% { transform: translateX(200px); }
+        24%, 100% { transform: translateX(700px); }
       }
       .caption { animation: captions 9s cubic-bezier(.65, 0, .35, 1) infinite; }
       @keyframes captions {
@@ -65,27 +65,24 @@
 
   <!-- A self-contained vector asset: no scripts, foreignObject, images, or external resources. -->
   <g clip-path="url(#panel-clip)">
-    <rect width="960" height="520" fill="url(#background)"/>
-    <rect width="960" height="520" fill="url(#past-glow)"/>
-    <rect width="960" height="520" fill="url(#future-glow)"/>
-    <rect width="960" height="520" fill="url(#dots)" opacity="0.6"/>
-    <path d="M0 108 Q480 22 960 108" fill="none" stroke="#29404e" stroke-opacity="0.5"/>
+    <rect width="960" height="360" fill="url(#background)"/>
+    <rect width="960" height="360" fill="url(#past-glow)"/>
+    <rect width="960" height="360" fill="url(#future-glow)"/>
+    <rect width="960" height="360" fill="url(#dots)" opacity="0.6"/>
+    <path d="M0 82 Q480 4 960 82" fill="none" stroke="#29404e" stroke-opacity="0.5"/>
   </g>
-  <rect x="2" y="2" width="956" height="516" rx="25" fill="none" stroke="#2d3b4b" stroke-width="1.4"/>
+  <rect x="2" y="2" width="956" height="356" rx="25" fill="none" stroke="#2d3b4b" stroke-width="1.4"/>
 
-  <text class="sans" x="480" y="51" text-anchor="middle" font-size="22" font-weight="500" letter-spacing="0.3" fill="#97aabd">
-    <tspan x="480">Enhancing Long-Horizon Autonomous Research</tspan>
-    <tspan x="480" dy="29">with Co-Evolving World Models</tspan>
-  </text>
+  <text class="sans" x="480" y="34" text-anchor="middle" font-size="18" font-weight="500" letter-spacing="0.2" fill="#97aabd">Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models</text>
 
-  <text class="sans" x="480" y="230" text-anchor="middle" font-size="136" font-weight="800" letter-spacing="3" fill="url(#wordmark)">JANUS</text>
+  <text class="sans" x="480" y="141" text-anchor="middle" font-size="100" font-weight="800" letter-spacing="3" fill="url(#wordmark)">JANUS</text>
   <g clip-path="url(#name-clip)">
-    <rect class="sweep" x="0" y="112" width="108" height="140" fill="url(#sheen)"/>
+    <rect class="sweep" x="0" y="48" width="108" height="112" fill="url(#sheen)"/>
   </g>
-  <text class="sans" x="480" y="286" text-anchor="middle" font-size="28" font-weight="600" fill="#d3e0e7">Forecast future outcomes. Reflect on past experience.</text>
+  <text class="sans" x="480" y="184" text-anchor="middle" font-size="24" font-weight="600" fill="#d3e0e7">Forecast future outcomes. Reflect on past experience.</text>
 
   <!-- Three readable phases remain present even when motion is disabled. -->
-  <g class="sans" font-size="22" font-weight="600" text-anchor="middle" transform="translate(-352 -1) scale(1.3)">
+  <g class="sans" font-size="20" font-weight="600" text-anchor="middle" transform="translate(-224 -71.7) scale(1.1)">
     <rect x="441" y="257" width="116" height="42" rx="21" fill="#152a33" stroke="#305862"/>
     <rect class="stage" x="441" y="257" width="116" height="42" rx="21" fill="#1a3c43" stroke="#7fdbd4" stroke-width="1.3"/>
     <text x="499" y="284" fill="#a4e6df">Predict</text>
@@ -99,18 +96,18 @@
     <text x="781" y="284" fill="#d8c2f5">Evolve</text>
   </g>
   <g clip-path="url(#caption-clip)">
-    <g class="caption sans" text-anchor="middle" font-size="22" fill="#9eb0c3">
-      <text x="480" y="434">Forecast value, information gain, and exploration utility.</text>
-      <text x="480" y="470">Ground predictions in real experimental evidence.</text>
-      <text x="480" y="506">Co-evolve research skills and predictive judgment.</text>
-      <text x="480" y="542">Forecast value, information gain, and exploration utility.</text>
+    <g class="caption sans" text-anchor="middle" font-size="20" fill="#9eb0c3">
+      <text x="480" y="297">Forecast value, information gain, and exploration utility.</text>
+      <text x="480" y="333">Ground predictions in real experimental evidence.</text>
+      <text x="480" y="369">Co-evolve research skills and predictive judgment.</text>
+      <text x="480" y="405">Forecast value, information gain, and exploration utility.</text>
     </g>
   </g>
 
-  <path d="M48 467 H912" stroke="#29384a" stroke-width="1"/>
+  <path d="M48 321 H912" stroke="#29384a" stroke-width="1"/>
   <g>
-    <circle class="stage" cx="456" cy="494" r="3.5" fill="#80d8d2"/>
-    <circle class="stage verify" cx="480" cy="494" r="3.5" fill="#9abaff"/>
-    <circle class="stage evolve" cx="504" cy="494" r="3.5" fill="#c2a9e9"/>
+    <circle class="stage" cx="456" cy="340" r="3.5" fill="#80d8d2"/>
+    <circle class="stage verify" cx="480" cy="340" r="3.5" fill="#9abaff"/>
+    <circle class="stage evolve" cx="504" cy="340" r="3.5" fill="#c2a9e9"/>
   </g>
 </svg>
