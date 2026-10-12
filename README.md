@@ -100,9 +100,11 @@ The following results are reported in Table 1 of the [paper](assets/JANUS.pdf) o
 
 ## Citation
 
+```bibtex
 @article{liu2026janus0,
   title   = {JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models},
   author  = {Mengdi Liu and Chenghao Jia and Hong Chang and Mingjie He and Shiguang Shan and Xilin Chen},
   year    = {2026},
   journal = {arXiv preprint arXiv: 2610.13194}
 }
+```
