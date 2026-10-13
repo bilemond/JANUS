@@ -13,7 +13,7 @@
   &nbsp;
   <a href="https://arxiv.org/abs/2610.13194"><img src="https://img.shields.io/badge/arXiv-2610.13194-b31b1b.svg" alt="arXiv"></a>
   &nbsp;
-  <a href="https://github.com/bilemond/JANUS"><img src="https://img.shields.io/badge/Website-JANUS.com-1a73e8.svg" alt="Website"></a>
+  <a href="https://bilemond.github.io/JANUS/"><img src="https://img.shields.io/badge/Demo-JANUS.com-1a73e8.svg" alt="Demo"></a>
   &nbsp;
   <a href="#results"><img src="https://img.shields.io/badge/MLS--Bench--Lite-30%20tasks%20%7C%2012%20domains-4169e1.svg" alt="Benchmark"></a>
   &nbsp;
