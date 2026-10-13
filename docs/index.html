@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JANUS — Research graph demo</title>
+  <meta name="description" content="Explore JANUS research proposals, insights, and their evolving connections.">
+  <meta name="theme-color" content="#0c211e">
+  <link rel="icon" href="assets/janus-logo-transparent.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="explorer.css">
+  <link rel="stylesheet" href="demo.css">
+  <script defer src="assets/janus-public-graph.js"></script>
+  <script defer src="demo.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to demo</a>
+  <main id="main" class="demo-shell" aria-label="JANUS research graph demo">
+    <div class="idea-explorer" id="idea-player">
+      <header class="idea-toolbar">
+        <div class="idea-identity"><span class="idea-eyebrow"><img src="assets/janus-logo-transparent.png" alt="" width="27" height="27">JANUS</span><strong>nanoGPT training optimization</strong></div>
+        <div class="idea-counts"><span><b id="idea-count">70</b> proposals</span><span><b id="idea-link-count">112</b> connections</span></div>
+        <div class="idea-search-wrap"><label class="idea-search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="idea-search" type="search" placeholder="Find an idea…" aria-label="Search research proposals" autocomplete="off" aria-controls="idea-search-results"></label><div id="idea-search-results" class="idea-search-results" role="region" aria-label="Search results" hidden></div></div>
+      </header>
+      <div class="idea-workspace">
+        <div class="idea-map">
+          <div class="idea-map-heading"><span id="idea-graph-heading">THE EVOLVING GRAPH</span><div class="idea-map-tools"><div class="idea-view-switch" role="group" aria-label="Graph view"><button id="idea-mode-walkthrough" type="button" aria-pressed="true">Walkthrough</button><button id="idea-mode-explore" type="button" aria-pressed="false">Full graph</button></div><button id="idea-focus" class="idea-focus" type="button" aria-pressed="false">Focus origins</button></div></div>
+          <div class="idea-canvas" id="idea-canvas">
+            <svg id="idea-graph" viewBox="0 0 1000 580" role="group" aria-label="Interactive graph of research proposals. Select a node to read its plan." tabindex="0">
+              <defs><marker id="idea-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10Z"/></marker></defs>
+              <g id="idea-edges"></g><g id="idea-nodes"></g>
+            </svg>
+            <div class="idea-tooltip" id="idea-tooltip" hidden><span id="idea-tooltip-id"></span><strong id="idea-tooltip-title"></strong></div>
+            <div class="idea-zoom" aria-label="Graph view controls"><button id="idea-zoom-out" type="button" aria-label="Zoom out">−</button><output id="idea-zoom-level" aria-label="Zoom level">100%</output><button id="idea-zoom-in" type="button" aria-label="Zoom in">+</button><button id="idea-fit" type="button" aria-label="Reset graph view">↗</button></div>
+          </div>
+          <div class="idea-map-footer"><div class="idea-legend"><span><i></i>Direct modification</span><span><i class="reference"></i>Referenced idea</span></div><p id="idea-map-help" role="status">Select a node to explore · drag to pan</p></div>
+        </div>
+        <aside class="idea-inspector" aria-label="Selected research proposal">
+          <header class="idea-inspector-heading"><span class="idea-record"><span id="idea-record">IDEA 01</span><span id="idea-experiment" class="idea-experiment">EXP 1</span></span><div class="idea-step-controls"><button id="idea-previous" type="button" aria-label="Previous proposal">←</button><button id="idea-next" type="button" aria-label="Next proposal">→</button></div></header>
+          <h3 id="idea-proposal-title">Loading research ideas…</h3><div class="idea-result" id="idea-result" aria-label="Recorded validation result"></div>
+          <div class="idea-inspector-scroll">
+            <section class="idea-plan-section" aria-labelledby="idea-plan-heading"><h4 id="idea-plan-heading">Research plan</h4><div id="idea-plan" class="idea-plan"></div></section>
+            <section class="idea-rationale" aria-labelledby="idea-rationale-heading"><h4 id="idea-rationale-heading">Rationale</h4><p id="idea-rationale-copy"></p></section>
+            <section class="idea-insight" aria-labelledby="idea-insight-heading"><h4 id="idea-insight-heading">insight</h4><p id="idea-insight-copy"></p></section>
+          </div>
+          <footer class="idea-inspector-footer"><span id="idea-position" role="status">1 / 70</span></footer>
+        </aside>
+      </div>
+      <div class="idea-playback" aria-label="Walkthrough playback controls">
+        <div class="idea-transport">
+          <button id="idea-play" type="button" aria-label="Play walkthrough"><span id="idea-play-icon" aria-hidden="true">▶</span><span id="idea-play-label">Play</span></button>
+          <button id="idea-restart" type="button" aria-label="Replay from the beginning" title="Replay from the beginning">↺</button>
+          <span class="idea-play-status" id="idea-play-status" role="status">Ready to explore</span>
+          <span class="idea-time"><output id="idea-elapsed">0:00</output><span>/</span><output id="idea-duration">1:45</output></span>
+          <select id="idea-speed" aria-label="Playback speed: 1×" title="Playback speed"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option><option value="8">8×</option></select>
+        </div>
+        <label class="idea-timeline"><span class="sr-only">Walkthrough position</span><input id="idea-seek" type="range" min="0" max="105000" step="100" value="0" aria-label="Walkthrough position"><span class="idea-timeline-ticks" id="idea-timeline-ticks" aria-hidden="true"></span></label>
+        <div class="idea-playback-caption"><span id="idea-play-instruction">Click any node to pause and read its proposal.</span><span id="idea-play-caption">IDEA 01 / 70</span></div>
+      </div>
+    </div>
+  </main>
+  <noscript><p class="noscript-note">Enable JavaScript to play the demo and explore research proposals.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* Dedicated demo: the graph and its two-field notebook fill the page. */
+.demo-shell{max-width:1720px;margin:auto;padding:26px 28px}
+.idea-explorer{border-radius:16px;box-shadow:0 24px 90px rgba(0,0,0,.2)}
+.idea-toolbar{padding:17px 25px;min-height:81px}
+.idea-identity{gap:3px}
+.idea-eyebrow{font:650 14px var(--sans);letter-spacing:.055em;gap:9px;color:#e7ead3}
+.idea-eyebrow>img{width:27px;height:27px;object-fit:contain}
+.idea-identity>strong{font:11px var(--mono);color:#9ab196;font-weight:400;letter-spacing:0}
+.idea-workspace{height:clamp(620px,calc(100svh - 230px),860px);grid-template-columns:minmax(0,1fr) 415px;padding:17px 18px 19px 0}
+.idea-map{min-height:0}
+.idea-canvas{min-height:0}
+.idea-inspector{height:100%;min-height:0;padding-top:22px}
+.idea-inspector>h3{font-size:25px;letter-spacing:-.03em;font-weight:500;margin:16px 23px 18px}
+.idea-result{padding-bottom:20px}
+.idea-inspector-scroll{display:block;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding:0 17px 30px 23px;min-height:0;scrollbar-width:thin;scrollbar-color:#668260 rgba(34,61,44,.34)}
+.idea-inspector-scroll::-webkit-scrollbar{width:7px}
+.idea-inspector-scroll::-webkit-scrollbar-track{background:rgba(34,61,44,.34);border-radius:999px}
+.idea-inspector-scroll::-webkit-scrollbar-thumb{background:#668260;border-radius:999px;border:1px solid rgba(21,46,33,.65)}
+.idea-plan-section,.idea-rationale,.idea-insight{display:block;min-height:0}
+.idea-plan-section>h4,.idea-rationale>h4,.idea-insight>h4{font:500 11px var(--sans);letter-spacing:.035em;color:#d6dfb9;margin:0 0 11px}
+.idea-plan{overflow:visible;padding:0}
+.idea-plan p,.idea-rationale>p,.idea-insight>p{font:12px/1.72 var(--sans);color:#bacbb5;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+.idea-rationale,.idea-insight{border-top:1px solid #38533e;margin-top:22px;padding-top:18px}
+.idea-rationale>p,.idea-insight>p{overflow:visible;padding:0}
+.idea-inspector-footer{justify-content:flex-end;padding:12px 23px}
+.idea-playback{padding:15px 25px 17px}
+@media(max-width:1350px){.idea-workspace{grid-template-columns:minmax(0,1fr) 365px}.idea-inspector>h3{font-size:23px}}
+@media(max-width:1100px){.demo-shell{padding:20px}.idea-map-heading>span{width:100%}.idea-map-tools{width:100%}}
+@media(max-width:900px){.demo-shell{padding:16px}.idea-workspace{grid-template-columns:1fr;height:auto;padding:0}.idea-map{height:470px;min-height:0}.idea-canvas{min-height:0}.idea-inspector{height:740px;margin:0 18px 18px}.idea-plan p,.idea-rationale>p,.idea-insight>p{font-size:13px}.idea-toolbar{padding:17px 20px}.idea-eyebrow{font-size:14px}.idea-identity>strong{font-size:10px}}
+@media(max-width:540px){.demo-shell{padding:10px}.idea-explorer{margin:0;border-radius:12px}.idea-toolbar{padding:15px}.idea-map{height:355px}.idea-map-heading{padding-left:15px;padding-right:15px}.idea-inspector{height:720px;margin:0 10px 14px}.idea-inspector-heading{padding:0 18px}.idea-inspector>h3{margin:16px 18px 17px;font-size:22px}.idea-result{padding-left:18px;padding-right:18px}.idea-inspector-scroll{padding-left:18px;padding-right:18px;gap:15px}.idea-playback{padding:15px}.idea-identity>strong{font-size:9px}.idea-eyebrow{font-size:13px}.idea-playback-caption{font-size:8px}.idea-plan p,.idea-rationale>p,.idea-insight>p{font-size:12px}}
